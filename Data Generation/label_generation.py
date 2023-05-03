@@ -1,8 +1,6 @@
 import openai
 import pandas as pd
 import tqdm
-openai.organization = "org-rSBOy4Zvb2tJ9HIPGEWY43UT"
-openai.api_key = "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"
 def get_emoji_based_on_text(text):
     try:
         response = openai.Completion.create(
