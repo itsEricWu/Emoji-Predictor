@@ -1,0 +1,5 @@
+# Emoji-Predictor
+
+Emojis are frequently employed in social media messages to enhance text-based communications with visual elements. In this study, we investigate the relationship between sentences and emojis, utilizing SOTA models to generate the most compatible emoji. Additionally, we examine the efficacy of large language models (LLMs) in generating and augmenting data. Our approach incorporates a range of NLP models, including Bidirectional Encoder Representations from Transformers (BERT), a pre-trained transformer model, a Support Vector Machine (SVM), a classic supervised learning technique, and Long Short-Term Memory (LSTM), a neural network-based learning model. Our experimental results demonstrate the successful prediction of compatible emojis from textual input, highlighting the potential of our approach in understanding emoji predicting and the feasible action for augmenting data by LLM.
+
+We create a new Text to Emoji dataset by continuing prompting from GPT 3.5 turbo API with the tweet data sentiment140. The models are in the jupyter notebooks.
